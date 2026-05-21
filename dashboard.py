@@ -7,7 +7,7 @@ from dash import Dash, dcc, html, Input, Output
 # LOAD DATA
 # ==============================
 
-df = pd.read_csv("data/cleaned_superstore_data.csv")
+df = pd.read_csv("cleaned_superstore_data.csv")
 df['Order Date'] = pd.to_datetime(df['Order Date'])
 
 # ==============================
